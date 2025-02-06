@@ -57,7 +57,7 @@ const Layout: React.FC<PropsWithChildren<{
         </h1>
       </BackLay>
       <Cursor />
-      <ScoutBar actions={actions(setTheme)} brandColor="var(--cw)" />
+      <ScoutBar actions={actions(setTheme)} brandColor="var(--Rishi)" />
       {!show && <>{children}</>}
     </Main>
   );
