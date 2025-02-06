@@ -45,26 +45,18 @@ const FooterLink: React.FC<IFooterLink &
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://twitter.com/code_wonders"
-          aria-label="Go To Adenekan Wonderful Twitter Page"
-          title="Twitter Page"
+          href="https://x.com/rishii_2208"
+          aria-label="Go To Rishi's X Page"
+          title="X Page"
         >
           <Twitter />
         </a>
+       
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.facebook.com/AdenekanWonderful"
-          aria-label="Go To Adenekan Wonderful Facebook Page"
-          title="Facebook Page"
-        >
-          <Facebook />
-        </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://linkedin.com/in/codewonders"
-          aria-label="Go To Adenekan Wonderful Linkedin Page"
+          href="https://www.linkedin.com/in/rishi-raj-prajapati/"
+          aria-label="Go To rishi's Linkedin Page"
           title="Linkedin Page"
         >
           <Linkedin />
@@ -72,26 +64,18 @@ const FooterLink: React.FC<IFooterLink &
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/adenekan41"
-          aria-label="Go To Adenekan Wonderful Github Page"
+          href="https://github.com/rishii2208"
+          aria-label="Go To rishi's Github Page"
           title="Github Page"
         >
           <Github />
         </a>
+       
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://dribbble.com/codewonders"
-          aria-label="Go To Adenekan Wonderful Dribble Page"
-          title="Dribbble Page"
-        >
-          <Dribble />
-        </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://instagram.com/codewonders"
-          aria-label="Go To Adenekan Wonderful Instagram Page"
+          href="https://www.instagram.com/rishii_nation/"
+          aria-label="Go To rishi's Instagram Page"
           title="Instagram Page"
         >
           <Instagram />

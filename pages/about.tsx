@@ -25,114 +25,70 @@ const About = () => {
           <h1 className="intro__text">About Me.</h1> <br />
           <article>
             <ul className="timeline">
-              <li className="mt-2">
+              <li>
+                
+              
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Open Github Link"
-                  href="https://github.com/adenekan41"
-                >
-                  Engineering{' '}
-                  <small>
-                    <Github />
-                  </small>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Github Link"
                   id="cardHover"
-                  href="https://github.com/adenekan41"
-                  className="float-right"
+                  aria-label="Engineering"
+                  href="https://www.dtu.ac.in"
                 >
-                  View Github
+                  Engineering @DTU<small></small>
+                </a>
+                <a className="float-right" tabIndex={-1}>
+                  <Date /> <b>2022 - 2026</b>
                 </a>
                 <p>
-                  The power of first impressions cannot be underestimated, and
-                  the gateway to capitalizing on them lies in exceptional
-                  website design. An outstanding website transcends mere
-                  aesthetics and extends its influence to encompass seamless
-                  functionality and user-friendly navigation. Drawing upon my
-                  expertise as a seasoned programmer, I possess the unique
-                  ability to tackle intricate technical challenges while
-                  crafting websites that exude sleekness and visual allure.
-                  Moreover, my extensive knowledge of recognized technical
-                  standards is complemented by my proficiency in modern building
-                  practices, ensuring that every aspect of your website is
-                  finely tuned to perfection.
+                I joined DTU as an engineering undergrad in 2022 with limited knowledge of Python and JavaScript. Immersed in a dynamic environment, I honed my skills through projects, hackathons, and internships. Late-night coding, intense brainstorming, and overcoming challenges shaped me into a resilient developer. Each setback fueled my growth, and every success reinforced my passion. Beyond coding, DTU instilled in me teamwork, adaptability, and the drive to innovate. From a curious beginner to a confident problem-solver, this journey has been transformative. As I move forward, I am eager to embrace new challenges and make a lasting impact in tech
                 </p>
               </li>
               <li>
-                <Link href="/projects" aria-label="Open Products Page">
-                  Product{' '}
-                  <small>
-                    <Product />
-                  </small>
-                </Link>
-                <Link
-                  href="/projects"
-                  aria-label="Open Products Page"
+              <a
+                  target="_blank"
+                  rel="noopener noreferrer"
                   id="cardHover"
-                  className="float-right"
+                  aria-label="Engineering"
+                  href="https://www.linkedin.com/company/zebpay"
                 >
-                  View Products
-                </Link>
+                  Ex Intern@ZebPay<small></small>
+                </a>
+                <a className="float-right" tabIndex={-1}>
+                  <Date /> <b>Mar- Aug 2024</b>
+                </a>
                 <p>
-                  While I may not fit the conventional mold of a product
-                  manager, my diverse skill set in research, product design, and
-                  product coordination empowers me to drive the growth of a
-                  product from its inception. As an exceptional analytical
-                  thinker, I possess the ability to uphold the product's vision
-                  throughout its entire journey, effectively bridging the
-                  technical and product aspects. By leveraging my expertise, I
-                  can navigate the path from 0 to 1, ensuring the product's
-                  success at every stage.
+                Contributed to the Fullstack team in deploying and integrating version 3.0 of their site  with 5 million active monthly users.Developed a powerful SIP toolkit, analyzing 58 key parameters to provide insightful investment analytics in a visual format. Leveraged technologies like Next.js, React.js, MongoDB, AWS, Docker, and Kubernetes to build scalable and efficient solution, optimizing both backend integration and frontend visualization.
                 </p>
               </li>
 
               <li>
-                <a
+              <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Open Design Link"
-                  href="https://dribbble.com/codewonders"
-                >
-                  Design{' '}
-                  <small>
-                    <Dribble />
-                  </small>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Design Link"
                   id="cardHover"
-                  href="https://dribbble.com/codewonders"
-                  className="float-right"
+                  aria-label="Engineering"
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                 >
-                  View Dribbble
+                  Self Employed<small></small>
+                </a>
+                <a className="float-right" tabIndex={-1}>
+                  <Date /> <b>Sep 2024 - Jan 2025</b>
                 </a>
                 <p>
-                  Despite not fitting the typical designer stereotype, my
-                  exceptional visual abilities enable me to excel as a
-                  presenter, effectively conveying design concepts to
-                  stakeholders and design teams. I possess a remarkable aptitude
-                  for conceptualization, allowing me to envision and bring forth
-                  stunning creations. Additionally, my expertise lies in
-                  fine-tuning stylesheets and crafting seamless user experiences
-                  that flow effortlessly.
+                  I worked in 4 main projects during this timeline.Upskilled myself,explored emerging technologies to stay ahead in the ever-evolving tech landscape. This period fostered adaptability, problem-solving, and a deep understanding of real-world development challenges
                 </p>
               </li>
             </ul>
           </article>
         </PageWrapper>
 
-        <PageWrapper
+        {/*<PageWrapper
           className="mb-5"
-          aria-label="You are now in my musical playlist section"
+          aria-label="You are now in my Projects Section"
         >
           <article>
-            <h4>My Reads.</h4>
+            <h4>My  projects.</h4>
             <ul className="timeline">
               <li>
                 <a
@@ -233,36 +189,39 @@ const About = () => {
             </ul>
           </article>
         </PageWrapper>
+           */}
 
         <PageWrapper
           className="mb-5"
-          aria-label="You are now in my musical playlist section"
+          aria-label="You are now in my Projects and Achievements section"
         >
           <article>
-            <h4>My Playlist.</h4>
+            <h4>Projects and Achievements</h4>
             <ul className="timeline">
               <li>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Open Codewonders Spotify Playlist"
-                  href="https://open.spotify.com/playlist/2EH5NURI9OzRsMOFOGL70V"
+                  aria-label="Crypto Price Predictor"
+                  href="https://crypto-price-predictor.streamlit.app/"
                 >
-                  Codewonders. <small>Spotify</small>
+                 Cyrpto Price Predictor<small></small>
                 </a>
                 <a
                   target="_blank"
                   id="cardHover"
                   rel="noopener noreferrer"
                   aria-label="Open Lofii Playlist"
-                  href="https://open.spotify.com/playlist/2EH5NURI9OzRsMOFOGL70V"
+                  href="https://github.com/rishii2208/AI-Based-model-to-predict-crypto-price"
                   className="float-right"
                 >
-                  View Playlist
+                  View
                 </a>
                 <p>
-                  This is an intensive, energizing songs list that helps me
-                  through the day and inspires generate breakthrough ideas.
+                Development of LTSM Model based crypto price prediction tool. Trained Model has been recorded 0.0011-0.2314 Validation 
+
+Loss as compared to real market price. 50+ dynamic pointers and sentiment analysis are also used in model to predict price
+accurately. 
                 </p>
               </li>
               <li>
@@ -270,23 +229,25 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Open Link"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS"
+                  href="https://www.roundtabledtu.in/"
                 >
-                  Chill Lofi Study Beats <small>Spotify</small>
+                  Roundtable Website <small></small>
                 </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Open Link"
                   id="cardHover"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS"
+                  href="https://github.com"
                   className="float-right"
                 >
-                  View Playlist
+                  View
                 </a>
                 <p>
-                  The perfect study beats, twenty four seven. with over 178
-                  SONGS
+                Optimized code to improve component loading times, resulting in a more responsive and efficient user experience. 
+Extensively utilized TypeScript to enhance code quality, ensuring robust type-checking and reducing runtime errors, reducing loading 
+
+time by 54%. 
                 </p>
               </li>
               <li>
@@ -294,68 +255,70 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Open Link"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DWUACcBjzMiIY?si=KbZW7Cz1TpaABPXV_fH4-A"
+                  href="https://github.com/rishii2208/ParkEase"
                 >
-                  Mellow Drive <small>Spotify</small>
+                  Finalists@ Walmart Sparkathon <small></small>
                 </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Open Link"
                   id="cardHover"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DWUACcBjzMiIY?si=KbZW7Cz1TpaABPXV_fH4-A"
+                  href="https://github.com/rishii2208/ParkEase"
                   className="float-right"
                 >
-                  View Playlist
+                  View 
                 </a>
-                <p>Easy listening for pleasant drive</p>
+                <p>Finalist out of 2700+ teams at Walmart Sparkathon Hackathon 2024</p>
               </li>
               <li>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Open Link"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX6PKX5dyBKeq?si=jRd8iiIER260sRzE6ZV44g"
+                  href="https://www.instagram.com/invictus_dtu/"
                 >
-                  Rap UK <small>Spotify</small>
+                  Chief Coordinator@<small>Invictus</small>
                 </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Open Link"
                   id="cardHover"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX6PKX5dyBKeq?si=jRd8iiIER260sRzE6ZV44g"
+                  href="https://www.instagram.com/invictus_dtu/"
                   className="float-right"
                 >
-                  View Playlist
+                  View 
                 </a>
-                <p>One of the finest rap in UK. Cover: Aitch</p>
+                <p>Hlped in organising 3 24 hour+ hackathons with 1500+ particpations, 4 coding competitions with 
+                1000+ participation teams and several other workshops and seminars.</p>
               </li>
               <li>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Open Link"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX3rxVfibe1L0?si=wF0gpf3RRa-2oT1GYTBQ_w"
+                  href="https://dtu.ac.in/Web/coea/bulletin/LabonWheel.pdf"
                 >
-                  Mood Booster 🎅🏽 <small>Spotify</small>
+                  Community Outreach<small>/</small>
                 </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Open Link"
                   id="cardHover"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX3rxVfibe1L0?si=wF0gpf3RRa-2oT1GYTBQ_w"
+                  href="https://dtu.ac.in/Web/coea/bulletin/LabonWheel.pdf"
                   className="float-right"
                 >
-                  View Playlist
+                  View 
                 </a>
-                <p>Get happy with today's dose of feel-good songs!</p>
+                <p>Instructed 20+ underprivileged school students in basic computer science and Python programming through the 'Lab on Wheels' initiative by the Office of Extension & Outreach Activites, in collaboration with a dedicated team of instructors, from April to October 2023.!</p>
               </li>
             </ul>
           </article>
         </PageWrapper>
 
+        {/*
         <PageWrapper aria-label="You are now in lens section">
           <article>
             <h4>My Photochromic Lens.</h4>
@@ -376,11 +339,13 @@ const About = () => {
             </ul>
           </article>
         </PageWrapper>
+        */}
+        
       </PageSection>
 
       <PageWrapper>
-        <FooterLink goto="/projects" className="mt-3 mb-5">
-          Lets Continue To Projects
+        <FooterLink goto="/resume" className="mt-3 mb-5">
+          Lets Continue To Resume
         </FooterLink>
         <br />
       </PageWrapper>

@@ -24,40 +24,25 @@ const Home = () => {
         <PageWrapper>
           <article>
             <motion.h1
-              data-text="I'm Adenekan Wonderful"
+              data-text="I'm Rishi"
               className="intro__text"
               {...getTransitions(0.1)}
             >
-              <mark className="mark">I&apos;m Adenekan Wonderful</mark>
+              <mark className="mark">I&apos;m Rishi</mark>
             </motion.h1>
             <motion.p {...getTransitions(0.3)}>
               {' '}
-              Your friendly neighborhood frontend developer, UX architect, and
-              JavaScript engineer. I spend my days (and often nights) painting
-              the Internet canvas with{' '}
-              <Link href="/projects" aria-label="Go to Projects Page">
+              Your friendly neighborhood Software developer. I spend my days (and often nights) painting
+              the Internet canvas with
                 Projects
-              </Link>{' '}
+              
               and lines of code, turning zeroes and ones into immersive,
-              interactive experiences,{' '}
+              interactive and useful experiences,{' '}
             </motion.p>
             <motion.p {...getTransitions(0.5)}>
-              Bona fide photochromic{' '}
-              <Link href="/articles" aria-label="Check out my Lens">
-                Lens
-              </Link>{' '}
-              enthusiast - sunlight or indoors, I&apos;ve got it covered. I
-              tread the path of minimalism, finding beauty in simplicity and
-              order. When I'm not crafting beautiful web experiences, you can
-              find me reading{' '}
-              <Link
-                href="/articles"
-                aria-label="Go to Articles Page And Check What I Read"
-              >
-                Articles
-              </Link>{' '}
+            Whether it’s crafting seamless user experiences or diving into the latest tech stacks, Ithrive on turning ideas into reality. I embrace the philosophy of minimalism, finding elegance in simplicity and efficiency in every line of code
               or swaying to the rhythm of Pop Music & Jazz, losing myself in the
-              captivating flow of melodies. anyways you can{' '}
+              captivating flow of melodies anyways you can{' '}
               <Link href="/contact" aria-label="Go to Contact Page">
                 Contact Me
               </Link>

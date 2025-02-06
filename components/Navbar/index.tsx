@@ -81,15 +81,15 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item hover__bottom">
                   <Link
-                    href="/projects"
+                    href="/resume"
                     activeClassName="is-active"
                     className="nav-link"
                     id="cardHover"
                     onClick={closeShow}
-                    aria-label="Go To Projects Page"
-                    title="Projects"
+                    aria-label="Go To resume Page"
+                    title="Resume"
                   >
-                    Projects
+                    Resume
                   </Link>
                 </li>
                 <li className="nav-item hover__bottom">
