@@ -52,13 +52,15 @@ const About = () => {
                   aria-label="Engineering"
                   href="https://www.linkedin.com/company/zebpay"
                 >
-                  Ex Intern@ZebPay<small></small>
+                  Ex ML Intern@ZebPay<small></small>
                 </a>
                 <a className="float-right" tabIndex={-1}>
                   <Date /> <b>Mar- Aug 2024</b>
                 </a>
                 <p>
-                Contributed to the Fullstack team in deploying and integrating version 3.0 of their site  with 5 million active monthly users.Developed a powerful SIP toolkit, analyzing 58 key parameters to provide insightful investment analytics in a visual format. Leveraged technologies like Next.js, React.js, MongoDB, AWS, Docker, and Kubernetes to build scalable and efficient solution, optimizing both backend integration and frontend visualization.
+                {/* Contributed to the Fullstack team in deploying and integrating version 3.0 of their site  with 5 million active monthly users.Developed a powerful SIP toolkit, analyzing 58 key parameters to provide insightful investment analytics in a visual format. Leveraged technologies like Next.js, React.js, MongoDB, AWS, Docker, and Kubernetes to build scalable and efficient solution, optimizing both backend integration and frontend visualization. */}
+                • Worked with Backend team for deployment and integrating of Machine Learning model with existing website with user base of more than 5 million.<br />
+                • Made SIP toolkit using data from zebpay API for assessing investment returns and presenting it in visual format using graph.js. Toolkit includes a robust ML model which evaluates the performance of your SIP by predicting future growth and adjusting strategies accordingly.Model Loss (Mean Squared Error): 0.065 , Prediction accuracy: 87.5%.
                 </p>
               </li>
 
@@ -76,7 +78,7 @@ const About = () => {
                   <Date /> <b>Sep 2024 - Jan 2025</b>
                 </a>
                 <p>
-                  I worked in 4 main projects during this timeline.Upskilled myself,explored emerging technologies to stay ahead in the ever-evolving tech landscape. This period fostered adaptability, problem-solving, and a deep understanding of real-world development challenges
+                  I worked in 4 main projects during this timeline.Upskilled myself,explored emerging technologies to stay ahead in the ever-evolving tech landscape. This period fostered adaptability, problem-solving, and a deep understanding of real-world development challenges.
                 </p>
               </li>
             </ul>
@@ -222,6 +224,33 @@ const About = () => {
 
 Loss as compared to real market price. 50+ dynamic pointers and sentiment analysis are also used in model to predict price
 accurately. 
+                </p>
+              </li>
+
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Link"
+                  href="https://slander.live/"
+                >
+                  Slander.live <small></small>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Link"
+                  id="cardHover"
+                  href="https://slander.live"
+                  className="float-right"
+                >
+                  View
+                </a>
+                <p>
+                • Implemented user verification and matchmaking algorithms to enhance user experience.<br />
+• Deployed the application using Docker for containerization, ensuring scalability and portability.<br />
+• Achieved low-latency video streaming (200ms delay) and a smooth user experience through WebRTC optimizations.<br />
+•Achieving real time abuse detection using AI agents and instant ban for safety of users.<br />
                 </p>
               </li>
               <li>
