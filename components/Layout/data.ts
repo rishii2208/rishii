@@ -37,7 +37,11 @@ export const actions = (theme: () => void) => [
         keyboardShortcut: ['a'],
       }),
       createScoutAction({
+<<<<<<< HEAD
         label: "Adenekan Rishi",
+=======
+        label: "Rishi",
+>>>>>>> 21052fb7d2bfadb3ab6aed06db537adadfe24c57
         href: '/about#reads',
       }),
       createScoutAction({
@@ -45,7 +49,7 @@ export const actions = (theme: () => void) => [
         href: '/about#playlist',
       }),
       createScoutAction({
-        label: "Adenekan's Lens",
+        label: "rishi",
         href: '/about#lens',
       }),
     ],
