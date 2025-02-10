@@ -63,7 +63,7 @@ const Resume = () => {
             src={previewData}
             allowFullScreen
             width="740"
-            height="70"
+            height="700"
             title="Rishi"
           />
         </PageSection>

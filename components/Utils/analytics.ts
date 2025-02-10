@@ -1,4 +1,4 @@
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 export const initGA = () => {
   console.log(
@@ -19,17 +19,27 @@ export const initGA = () => {
   ReactGA.initialize('UA-128989337-1');
 };
 
-export const logPageView = () => {
-  ReactGA.set({ page: window.location.pathname });
-  ReactGA.pageview(window.location.pathname);
-};
-export const logEvent = (category = '', action = '') => {
-  if (category && action) {
-    ReactGA.event({ category, action });
-  }
-};
+
 export const logException = (description = '', fatal = false) => {
   if (description) {
-    ReactGA.exception({ description, fatal });
+    ReactGA.event({
+      category: 'Exception',
+      action: description,
+      
+    });
   }
 };
+
+export const logPageView = () => {
+  ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+};
+
+export const logEvent = (category = '', action = '') => {
+  if (category && action) {
+    ReactGA.event({
+      category: category,
+      action: action,
+    });
+  }
+};
+
