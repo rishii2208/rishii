@@ -40,7 +40,6 @@ export const actions = (theme: () => void) => [
 
         label: " Rishi",
 
-        label: "Rishi",
 
         href: '/about#reads',
       }),
