@@ -22,28 +22,37 @@ export default class MyApp extends App {
       show: false,
       theme: loadState() ? true : false,
     };
+
+    // Bind methods to this
+    this.loadTheme = this.loadTheme.bind(this);
+    this.handleopen = this.handleopen.bind(this);
+    this.setTheme = this.setTheme.bind(this);
+    this.closeShow = this.closeShow.bind(this);
   }
 
-  loadTheme = () => {
+  loadTheme() {
     const { theme } = this.state;
     if (theme == false) {
       clearState();
     } else {
       saveState(1);
     }
-  };
+  }
 
-  handleopen = () => {
+  handleopen() {
     const { show } = this.state;
     this.setState({ show: !show });
-  };
-  setTheme = () => {
+  }
+
+  setTheme() {
     const { theme } = this.state;
     this.setState({ theme: !theme });
-  };
-  closeShow = () => {
+  }
+
+  closeShow() {
     this.setState({ show: false });
-  };
+  }
+
   static async getInitialProps({ Component, ctx }) {
     let pageProps = {};
 

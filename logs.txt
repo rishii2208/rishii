@@ -1,0 +1,292 @@
+[16:04:46.616] Running build in Washington, D.C., USA (East) – iad1
+[16:04:46.640] Cloning github.com/rishii2208/rishii (Branch: main, Commit: 0317489)
+[16:04:46.827] Previous build caches not available
+[16:04:46.982] Cloning completed: 342.000ms
+[16:04:47.288] Running "vercel build"
+[16:04:47.653] Vercel CLI 41.6.2
+[16:04:49.490] Installing dependencies...
+[16:04:49.836] yarn install v1.22.19
+[16:04:49.914] [1/4] Resolving packages...
+[16:04:50.631] [2/4] Fetching packages...
+[16:05:10.117] [3/4] Linking dependencies...
+[16:05:10.120] warning "next-pwa > babel-loader@8.3.0" has unmet peer dependency "@babel/core@^7.0.0".
+[16:05:10.121] warning "next-pwa > babel-loader@8.3.0" has unmet peer dependency "webpack@>=2".
+[16:05:10.121] warning "next-pwa > clean-webpack-plugin@4.0.0" has unmet peer dependency "webpack@>=4.0.0 <6.0.0".
+[16:05:10.121] warning "next-pwa > terser-webpack-plugin@5.3.9" has unmet peer dependency "webpack@^5.1.0".
+[16:05:10.121] warning "next-pwa > workbox-webpack-plugin@6.5.4" has unmet peer dependency "webpack@^4.4.0 || ^5.9.0".
+[16:05:10.133] warning "react-helmet > react-side-effect@1.2.0" has incorrect peer dependency "react@^0.13.0 || ^0.14.0 || ^15.0.0 || ^16.0.0".
+[16:05:10.134] warning " > react-progressive-image@0.6.0" has incorrect peer dependency "react@^15.0.0-0 || ^16.0.0-0".
+[16:05:10.137] warning " > react-progressive-image@0.6.0" has incorrect peer dependency "react-dom@^15.0.0-0 || ^16.0.0-0".
+[16:05:10.138] warning " > url-loader@2.3.0" has unmet peer dependency "webpack@^4.0.0".
+[16:05:10.138] warning " > eslint-config-airbnb@19.0.0" has incorrect peer dependency "eslint@^7.32.0 || ^8.2.0".
+[16:05:10.138] warning " > eslint-config-airbnb@19.0.0" has incorrect peer dependency "eslint-plugin-react-hooks@^4.3.0".
+[16:05:10.139] warning "eslint-config-airbnb > eslint-config-airbnb-base@15.0.0" has incorrect peer dependency "eslint@^7.32.0 || ^8.2.0".
+[16:05:14.166] [4/4] Building fresh packages...
+[16:05:14.397] success Saved lockfile.
+[16:05:14.400] Done in 24.57s.
+[16:05:14.432] Detected Next.js version: 13.4.2
+[16:05:14.436] Running "yarn run build"
+[16:05:14.600] yarn run v1.22.19
+[16:05:14.634] $ next build
+[16:05:15.042] Attention: Next.js now collects completely anonymous telemetry regarding usage.
+[16:05:15.043] This information is used to shape Next.js' roadmap and prioritize features.
+[16:05:15.043] You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+[16:05:15.044] https://nextjs.org/telemetry
+[16:05:15.044] 
+[16:05:15.184] - info Linting and checking validity of types...
+[16:05:16.703] - warn The Next.js plugin was not detected in your ESLint configuration. See https://nextjs.org/docs/basic-features/eslint#migrating-existing-config
+[16:05:21.678] 
+[16:05:21.679] Failed to compile.
+[16:05:21.684] 
+[16:05:21.684] ./pages/_app.js
+[16:05:21.684] 27:13  Error: Parsing error: Unexpected token =
+[16:05:21.684] 
+[16:05:21.685] ./pages/_document.js
+[16:05:21.685] 17:38  Error: Prop spreading is forbidden  react/jsx-props-no-spreading
+[16:05:21.685] 
+[16:05:21.685] ./pages/about.tsx
+[16:05:21.685] 8:8  Error: 'Link' is defined but never used.  no-unused-vars
+[16:05:21.686] 11:37  Error: Unable to resolve path to module '../components/Layout'.  import/no-unresolved
+[16:05:21.691] 11:37  Error: Missing file extension for "../components/Layout"  import/extensions
+[16:05:21.694] 12:24  Error: Unable to resolve path to module '../components/Footer'.  import/no-unresolved
+[16:05:21.699] 12:24  Error: Missing file extension for "../components/Footer"  import/extensions
+[16:05:21.699] 15:16  Error: 'Github' is defined but never used.  no-unused-vars
+[16:05:21.700] 15:24  Error: 'Dribble' is defined but never used.  no-unused-vars
+[16:05:21.700] 15:33  Error: 'Product' is defined but never used.  no-unused-vars
+[16:05:21.700] 15:48  Error: Unable to resolve path to module '../components/Icons'.  import/no-unresolved
+[16:05:21.700] 15:48  Error: Missing file extension for "../components/Icons"  import/extensions
+[16:05:21.701] 17:15  Error: Function component is not a function expression  react/function-component-definition
+[16:05:21.701] 29:17  Error: Delete `⏎··············⏎················`  prettier/prettier
+[16:05:21.701] 38:35  Error: Empty components are self-closing  react/self-closing-comp
+[16:05:21.701] 40:17  Error: The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[16:05:21.711] 44:17  Error: Replace `I·joined·DTU·as·an·engineering·undergrad·in·2022·with·limited·knowledge·of·Python·and·JavaScript.·Immersed·in·a·dynamic·environment,·I·honed·my·skills·through·projects,·hackathons,·and·internships.·Late-night·coding,·intense·brainstorming,·and·overcoming·challenges·shaped·me·into·a·resilient·developer.·Each·setback·fueled·my·growth,·and·every·success·reinforced·my·passion.·Beyond·coding,·DTU·instilled·in·me·teamwork,·adaptability,·and·the·drive·to·innovate.·From·a·curious·beginner·to·a·confident·problem-solver,·this·journey·has·been·transformative.·As·I·move·forward,·I·am·eager·to·embrace·new` with `··I·joined·DTU·as·an·engineering·undergrad·in·2022·with·limited⏎··················knowledge·of·Python·and·JavaScript.·Immersed·in·a·dynamic⏎··················environment,·I·honed·my·skills·through·projects,·hackathons,⏎··················and·internships.·Late-night·coding,·intense·brainstorming,·and⏎··················overcoming·challenges·shaped·me·into·a·resilient·developer.⏎··················Each·setback·fueled·my·growth,·and·every·success·reinforced·my⏎··················passion.·Beyond·coding,·DTU·instilled·in·me·teamwork,⏎··················adaptability,·and·the·drive·to·innovate.·From·a·curious⏎··················beginner·to·a·confident·problem-solver,·this·journey·has·been⏎··················transformative.·As·I·move·forward,·I·am·eager·to·embrace·new⏎·················`  prettier/prettier
+[16:05:21.715] 48:1  Error: Insert `··`  prettier/prettier
+[16:05:21.715] 55:38  Error: Empty components are self-closing  react/self-closing-comp
+[16:05:21.718] 57:17  Error: The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[16:05:21.718] 61:11  Error: Replace `······⏎················•·Worked·with·Backend·team·for·deployment·and·integrating·of·Machine·Learning·model·with·existing·website·with·user·base·of·more·than·5·million.<br·/>` with `········•·Worked·with·Backend·team·for·deployment·and·integrating·of⏎··················Machine·Learning·model·with·existing·website·with·user·base·of⏎··················more·than·5·million.`  prettier/prettier
+[16:05:21.719] 63:17  Error: Replace `•·Made·SIP·toolkit·using·data·from·zebpay·API·for·assessing·investment·returns·and·presenting·it·in·visual·format·using·graph.js.·Toolkit·includes·a·robust·ML·model·which·evaluates·the·performance·of·your·SIP·by·predicting·future·growth·and·adjusting·strategies·accordingly.Model·Loss` with `··<br·/>•·Made·SIP·toolkit·using·data·from·zebpay·API·for⏎··················assessing·investment·returns·and·presenting·it·in·visual⏎··················format·using·graph.js.·Toolkit·includes·a·robust·ML·model⏎··················which·evaluates·the·performance·of·your·SIP·by·predicting⏎··················future·growth·and·adjusting·strategies·accordingly.Model·Loss⏎·················`  prettier/prettier
+[16:05:21.721] 68:1  Error: Insert `··`  prettier/prettier
+[16:05:21.721] 75:32  Error: Empty components are self-closing  react/self-closing-comp
+[16:05:21.721] 77:17  Error: The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[16:05:21.721] 81:77  Error: Replace `·myself,explored·emerging·technologies·to·stay·ahead·in·the·ever-evolving·tech·landscape.·This·period·fostered·adaptability,·problem-solving,·and·a·deep·understanding·of` with `⏎··················myself,explored·emerging·technologies·to·stay·ahead·in·the⏎··················ever-evolving·tech·landscape.·This·period·fostered⏎··················adaptability,·problem-solving,·and·a·deep·understanding·of⏎·················`  prettier/prettier
+[16:05:21.722] 88:10  Error: Expected exception block, space or tab after '/*' in comment.  spaced-comment
+[16:05:21.722] 210:18  Error: Insert `·`  prettier/prettier
+[16:05:21.723] 210:40  Error: Empty components are self-closing  react/self-closing-comp
+[16:05:21.723] 223:17  Error: Replace `Development·of·LTSM·Model·based·crypto·price·prediction·tool.·Trained·Model·has·been·recorded·0.0011-0.2314·Validation·⏎⏎Loss·as·compared·to·real·market·price.·50+·dynamic·pointers·and` with `··Development·of·LTSM·Model·based·crypto·price·prediction·tool.⏎··················Trained·Model·has·been·recorded·0.0011-0.2314·Validation·Loss⏎··················as·compared·to·real·market·price.·50+·dynamic·pointers·and⏎·················`  prettier/prettier
+[16:05:21.725] 226:1  Error: Replace `accurately.·` with `··················accurately.`  prettier/prettier
+[16:05:21.725] 237:32  Error: Empty components are self-closing  react/self-closing-comp
+[16:05:21.726] 250:17  Error: Replace `•·Implemented·user·verification·and·matchmaking·algorithms·to·enhance·user·experience.` with `··•·Implemented·user·verification·and·matchmaking·algorithms·to⏎··················enhance·user·experience.⏎··················`  prettier/prettier
+[16:05:21.726] 251:1  Error: Replace `•·Deployed·the·application·using·Docker·for·containerization,·ensuring·scalability·and·portability.` with `··················•·Deployed·the·application·using·Docker·for·containerization,⏎··················ensuring·scalability·and·portability.⏎··················`  prettier/prettier
+[16:05:21.726] 252:1  Error: Replace `•·Achieved·low-latency·video·streaming·(200ms·delay)·and·a·smooth·user·experience·through·WebRTC·optimizations.` with `··················•·Achieved·low-latency·video·streaming·(200ms·delay)·and·a⏎··················smooth·user·experience·through·WebRTC·optimizations.⏎··················`  prettier/prettier
+[16:05:21.726] 253:1  Error: Replace `•Achieving·real·time·abuse·detection·using·AI·agents·and·instant·ban·for·safety·of·users.` with `··················•Achieving·real·time·abuse·detection·using·AI·agents·and⏎··················instant·ban·for·safety·of·users.⏎··················`  prettier/prettier
+[16:05:21.727] 263:38  Error: Empty components are self-closing  react/self-closing-comp
+[16:05:21.727] 276:17  Error: Replace `Optimized·code·to·improve·component·loading·times,·resulting·in·a·more·responsive·and·efficient·user·experience.·⏎Extensively·utilized·TypeScript·to·enhance·code·quality,·ensuring·robust·type-checking·and·reducing·runtime·errors,·reducing·loading·⏎⏎time·by·54%.·` with `··Optimized·code·to·improve·component·loading·times,·resulting⏎··················in·a·more·responsive·and·efficient·user·experience.⏎··················Extensively·utilized·TypeScript·to·enhance·code·quality,⏎··················ensuring·robust·type-checking·and·reducing·runtime·errors,⏎··················reducing·loading·time·by·54%.`  prettier/prettier
+[16:05:21.728] 289:49  Error: Empty components are self-closing  react/self-closing-comp
+[16:05:21.728] 299:23  Error: Delete `·`  prettier/prettier
+[16:05:21.728] 301:20  Error: Replace `Finalist·out·of·2700+·teams·at·Walmart·Sparkathon·Hackathon·2024` with `⏎··················Finalist·out·of·2700+·teams·at·Walmart·Sparkathon·Hackathon⏎··················2024⏎················`  prettier/prettier
+[16:05:21.729] 320:23  Error: Delete `·`  prettier/prettier
+[16:05:21.729] 322:20  Error: Replace `Hlped·in·organising·3·24·hour+·hackathons·with·1500+·particpations,·4·coding·competitions·with·⏎················1000+·participation·teams·and·several·other·workshops·and·seminars.` with `⏎··················Hlped·in·organising·3·24·hour+·hackathons·with·1500+⏎··················particpations,·4·coding·competitions·with·1000+·participation⏎··················teams·and·several·other·workshops·and·seminars.⏎················`  prettier/prettier
+[16:05:21.730] 342:23  Error: Delete `·`  prettier/prettier
+[16:05:21.730] 344:20  Error: Replace `Instructed·20+·underprivileged·school·students·in·basic·computer·science·and·Python·programming·through·the·'Lab·on·Wheels'·initiative·by·the·Office·of·Extension·&·Outreach·Activites,·in·collaboration·with·a·dedicated·team·of·instructors,·from·April·to·October·2023.!` with `⏎··················Instructed·20+·underprivileged·school·students·in·basic⏎··················computer·science·and·Python·programming·through·the·'Lab·on⏎··················Wheels'·initiative·by·the·Office·of·Extension·&·Outreach⏎··················Activites,·in·collaboration·with·a·dedicated·team·of⏎··················instructors,·from·April·to·October·2023.!⏎················`  prettier/prettier
+[16:05:21.731] 344:128  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+[16:05:21.732] 344:142  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+[16:05:21.732] 371:12  Error: Delete `⏎········`  prettier/prettier
+[16:05:21.732] 
+[16:05:21.733] ./pages/articles.tsx
+[16:05:21.734] 7:37  Error: Unable to resolve path to module '../components/Layout'.  import/no-unresolved
+[16:05:21.734] 7:37  Error: Missing file extension for "../components/Layout"  import/extensions
+[16:05:21.734] 8:24  Error: Unable to resolve path to module '../components/Footer'.  import/no-unresolved
+[16:05:21.735] 8:24  Error: Missing file extension for "../components/Footer"  import/extensions
+[16:05:21.735] 9:32  Error: Unable to resolve path to module '../components/Tabs'.  import/no-unresolved
+[16:05:21.735] 9:32  Error: Missing file extension for "../components/Tabs"  import/extensions
+[16:05:21.736] 10:27  Error: Unable to resolve path to module '../components/Mansory'.  import/no-unresolved
+[16:05:21.737] 10:27  Error: Missing file extension for "../components/Mansory"  import/extensions
+[16:05:21.737] 11:25  Error: Unable to resolve path to module '../components/Mansory/mansory-item'.  import/no-unresolved
+[16:05:21.737] 11:25  Error: Missing file extension for "../components/Mansory/mansory-item"  import/extensions
+[16:05:21.738] 12:32  Error: Unable to resolve path to module '../components/Utils/context'.  import/no-unresolved
+[16:05:21.739] 12:32  Error: Missing file extension for "../components/Utils/context"  import/extensions
+[16:05:21.739] 13:29  Error: Unable to resolve path to module './projects'.  import/no-unresolved
+[16:05:21.739] 13:29  Error: Missing file extension for "./projects"  import/extensions
+[16:05:21.741] 15:18  Error: Function component is not a function expression  react/function-component-definition
+[16:05:21.741] 26:37  Error: Do not use Array index in keys  react/no-array-index-key
+[16:05:21.741] 35:41  Error: Do not use Array index in keys  react/no-array-index-key
+[16:05:21.741] 45:41  Error: Do not use Array index in keys  react/no-array-index-key
+[16:05:21.742] 55:41  Error: Do not use Array index in keys  react/no-array-index-key
+[16:05:21.743] 
+[16:05:21.747] ./pages/contact.tsx
+[16:05:21.748] 10:37  Error: Unable to resolve path to module '../components/Layout'.  import/no-unresolved
+[16:05:21.749] 10:37  Error: Missing file extension for "../components/Layout"  import/extensions
+[16:05:21.749] 11:24  Error: Unable to resolve path to module '../components/Footer'.  import/no-unresolved
+[16:05:21.757] 11:24  Error: Missing file extension for "../components/Footer"  import/extensions
+[16:05:21.759] 13:17  Error: Function component is not a function expression  react/function-component-definition
+[16:05:21.760] 26:16  Error: Replace `⏎············method="POST"⏎············action="https://formspree.io/f/xanqjzoj"⏎··········` with `·method="POST"·action="https://formspree.io/f/xanqjzoj"`  prettier/prettier
+[16:05:21.760] 
+[16:05:21.761] ./pages/index.tsx
+[16:05:21.761] 13:37  Error: Unable to resolve path to module '../components/Layout'.  import/no-unresolved
+[16:05:21.762] 13:37  Error: Missing file extension for "../components/Layout"  import/extensions
+[16:05:21.763] 14:24  Error: Unable to resolve path to module '../components/Footer'.  import/no-unresolved
+[16:05:21.791] 14:24  Error: Missing file extension for "../components/Footer"  import/extensions
+[16:05:21.809] 16:32  Error: Unable to resolve path to module '../components/Utils'.  import/no-unresolved
+[16:05:21.809] 16:32  Error: Missing file extension for "../components/Utils"  import/extensions
+[16:05:21.809] 18:14  Error: Function component is not a function expression  react/function-component-definition
+[16:05:21.809] 29:15  Error: Prop spreading is forbidden  react/jsx-props-no-spreading
+[16:05:21.809] 33:23  Error: Prop spreading is forbidden  react/jsx-props-no-spreading
+[16:05:21.809] 35:77  Error: Replace `·(and·often·nights)·painting⏎··············the·Internet·canvas·with⏎················Projects⏎··············` with `⏎··············(and·often·nights)·painting·the·Internet·canvas·with·Projects·and`  prettier/prettier
+[16:05:21.810] 39:14  Error: Replace `·and·lines·of·code,·turning·zeroes·and·ones·into·immersive,` with `·lines·of·code,·turning·zeroes·and·ones·into·immersive,·interactive`  prettier/prettier
+[16:05:21.810] 40:14  Error: Delete `·interactive`  prettier/prettier
+[16:05:21.810] 42:23  Error: Prop spreading is forbidden  react/jsx-props-no-spreading
+[16:05:21.810] 43:13  Error: Replace `Whether·it’s·crafting·seamless·user·experiences·or·diving·into·the·latest·tech·stacks,·Ithrive·on·turning·ideas·into·reality.·I·embrace·the·philosophy·of·minimalism,·finding·elegance·in·simplicity·and·efficiency·in·every·line·of·code⏎··············or·swaying·to·the·rhythm·of·Pop·Music·&·Jazz,·losing·myself·in·the⏎··············captivating·flow` with `··Whether·it’s·crafting·seamless·user·experiences·or·diving·into·the⏎··············latest·tech·stacks,·Ithrive·on·turning·ideas·into·reality.·I⏎··············embrace·the·philosophy·of·minimalism,·finding·elegance·in⏎··············simplicity·and·efficiency·in·every·line·of·code·or·swaying·to·the⏎··············rhythm·of·Pop·Music·&·Jazz,·losing·myself·in·the·captivating·flow⏎·············`  prettier/prettier
+[16:05:21.810] 53:23  Error: Prop spreading is forbidden  react/jsx-props-no-spreading
+[16:05:21.810] 
+[16:05:21.810] ./pages/lens.tsx
+[16:05:21.810] 9:37  Error: Unable to resolve path to module '../components/Layout'.  import/no-unresolved
+[16:05:21.810] 9:37  Error: Missing file extension for "../components/Layout"  import/extensions
+[16:05:21.810] 10:24  Error: Unable to resolve path to module '../components/Footer'.  import/no-unresolved
+[16:05:21.810] 10:24  Error: Missing file extension for "../components/Footer"  import/extensions
+[16:05:21.810] 12:32  Error: Unable to resolve path to module '../components/Tabs'.  import/no-unresolved
+[16:05:21.810] 12:32  Error: Missing file extension for "../components/Tabs"  import/extensions
+[16:05:21.810] 13:27  Error: Unable to resolve path to module '../components/Mansory'.  import/no-unresolved
+[16:05:21.810] 13:27  Error: Missing file extension for "../components/Mansory"  import/extensions
+[16:05:21.810] 14:25  Error: Unable to resolve path to module '../components/Mansory/mansory-item'.  import/no-unresolved
+[16:05:21.810] 14:25  Error: Missing file extension for "../components/Mansory/mansory-item"  import/extensions
+[16:05:21.810] 15:29  Error: Unable to resolve path to module '../components/Utils/context'.  import/no-unresolved
+[16:05:21.811] 15:29  Error: Missing file extension for "../components/Utils/context"  import/extensions
+[16:05:21.811] 16:29  Error: Unable to resolve path to module './projects'.  import/no-unresolved
+[16:05:21.811] 16:29  Error: Missing file extension for "./projects"  import/extensions
+[16:05:21.811] 18:18  Error: Function component is not a function expression  react/function-component-definition
+[16:05:21.811] 29:37  Error: Do not use Array index in keys  react/no-array-index-key
+[16:05:21.811] 38:41  Error: Do not use Array index in keys  react/no-array-index-key
+[16:05:21.811] 48:41  Error: Do not use Array index in keys  react/no-array-index-key
+[16:05:21.811] 58:41  Error: Do not use Array index in keys  react/no-array-index-key
+[16:05:21.811] 68:41  Error: Do not use Array index in keys  react/no-array-index-key
+[16:05:21.811] 
+[16:05:21.811] ./pages/projects.tsx
+[16:05:21.811] 10:37  Error: Unable to resolve path to module '../components/Layout'.  import/no-unresolved
+[16:05:21.811] 10:37  Error: Missing file extension for "../components/Layout"  import/extensions
+[16:05:21.811] 11:24  Error: Unable to resolve path to module '../components/Footer'.  import/no-unresolved
+[16:05:21.811] 11:24  Error: Missing file extension for "../components/Footer"  import/extensions
+[16:05:21.811] 12:32  Error: Unable to resolve path to module '../components/Tabs'.  import/no-unresolved
+[16:05:21.811] 12:32  Error: Missing file extension for "../components/Tabs"  import/extensions
+[16:05:21.811] 13:27  Error: Unable to resolve path to module '../components/Mansory'.  import/no-unresolved
+[16:05:21.812] 13:27  Error: Missing file extension for "../components/Mansory"  import/extensions
+[16:05:21.812] 14:25  Error: Unable to resolve path to module '../components/Mansory/mansory-item'.  import/no-unresolved
+[16:05:21.812] 14:25  Error: Missing file extension for "../components/Mansory/mansory-item"  import/extensions
+[16:05:21.812] 15:33  Error: Unable to resolve path to module '../components/Utils/context'.  import/no-unresolved
+[16:05:21.812] 15:33  Error: Missing file extension for "../components/Utils/context"  import/extensions
+[16:05:21.812] 17:18  Error: Function component is not a function expression  react/function-component-definition
+[16:05:21.812] 28:37  Error: Do not use Array index in keys  react/no-array-index-key
+[16:05:21.812] 37:41  Error: Do not use Array index in keys  react/no-array-index-key
+[16:05:21.812] 47:41  Error: Do not use Array index in keys  react/no-array-index-key
+[16:05:21.812] 57:41  Error: Do not use Array index in keys  react/no-array-index-key
+[16:05:21.812] 
+[16:05:21.812] ./pages/resume.tsx
+[16:05:21.812] 11:37  Error: Unable to resolve path to module '../components/Layout'.  import/no-unresolved
+[16:05:21.812] 11:37  Error: Missing file extension for "../components/Layout"  import/extensions
+[16:05:21.812] 12:24  Error: Unable to resolve path to module '../components/Footer'.  import/no-unresolved
+[16:05:21.812] 12:24  Error: Missing file extension for "../components/Footer"  import/extensions
+[16:05:21.812] 14:16  Error: Function component is not a function expression  react/function-component-definition
+[16:05:21.812] 16:5  Error: Expected exception block, space or tab after '/*' in comment.  spaced-comment
+[16:05:21.813] 38:24  Error: Curly braces are unnecessary here.  react/jsx-curly-brace-presence
+[16:05:21.813] 
+[16:05:21.813] ./components/A11y/skip-to-main.tsx
+[16:05:21.813] 8:1  Error: Parsing error: The keyword 'interface' is reserved
+[16:05:21.813] 
+[16:05:21.813] ./components/ActiveLink/index.tsx
+[16:05:21.813] 10:1  Error: Parsing error: The keyword 'interface' is reserved
+[16:05:21.813] 
+[16:05:21.813] ./components/AppData/projects.ts
+[16:05:21.813] 35:3  Error: Delete `··`  prettier/prettier
+[16:05:21.813] 37:17  Error: Delete `⏎·····`  prettier/prettier
+[16:05:21.813] 42:14  Error: Delete `⏎·····`  prettier/prettier
+[16:05:21.813] 73:11  Error: Replace `······"Onboard·users·new·to·crypto·with·just·an·email,·phone·number,·or·social·login.·One·SDK·for·auth,·wallet·creation,·and·key·management."` with `⏎······'Onboard·users·new·to·crypto·with·just·an·email,·phone·number,·or·social·login.·One·SDK·for·auth,·wallet·creation,·and·key·management.'`  prettier/prettier
+[16:05:21.813] 74:10  Error: Delete `⏎·····`  prettier/prettier
+[16:05:21.813] 76:14  Error: Insert `⏎·····`  prettier/prettier
+[16:05:21.813] 77:5  Error: Delete `·`  prettier/prettier
+[16:05:21.813] 155:10  Error: Insert `⏎·····`  prettier/prettier
+[16:05:21.813] 196:17  Error: Insert `⏎·····`  prettier/prettier
+[16:05:21.813] 218:17  Error: Delete `⏎·····`  prettier/prettier
+[16:05:21.813] 221:7  Error: Replace `"NEX·builds·new·tools·for·digital·media·creation.·We’re·on·a·mission·to·augment·human·storytelling--·try·our·newest·AI·tools·now!"` with `'NEX·builds·new·tools·for·digital·media·creation.·We’re·on·a·mission·to·augment·human·storytelling--·try·our·newest·AI·tools·now!'`  prettier/prettier
+[16:05:21.814] 235:10  Error: Insert `⏎·····`  prettier/prettier
+[16:05:21.814] 264:1  Error: Delete `··`  prettier/prettier
+[16:05:21.814] 
+[16:05:21.814] ./components/Cursor/index.tsx
+[16:05:21.814] 11:1  Error: Parsing error: The keyword 'interface' is reserved
+[16:05:21.814] 
+[16:05:21.814] ./components/Footer/index.tsx
+[16:05:21.814] 23:1  Error: Parsing error: The keyword 'interface' is reserved
+[16:05:21.814] 
+[16:05:21.814] ./components/Icons/index.tsx
+[16:05:21.814] 6:21  Error: Function component is not a function expression  react/function-component-definition
+[16:05:21.814] 17:24  Error: Function component is not a function expression  react/function-component-definition
+[16:05:21.814] 28:25  Error: Function component is not a function expression  react/function-component-definition
+[16:05:21.814] 39:26  Error: Function component is not a function expression  react/function-component-definition
+[16:05:21.814] 50:23  Error: Function component is not a function expression  react/function-component-definition
+[16:05:21.814] 61:25  Error: Function component is not a function expression  react/function-component-definition
+[16:05:21.814] 72:26  Error: Function component is not a function expression  react/function-component-definition
+[16:05:21.814] 84:21  Error: Function component is not a function expression  react/function-component-definition
+[16:05:21.814] 95:21  Error: Function component is not a function expression  react/function-component-definition
+[16:05:21.814] 107:21  Error: Function component is not a function expression  react/function-component-definition
+[16:05:21.815] 121:24  Error: Function component is not a function expression  react/function-component-definition
+[16:05:21.815] 132:24  Error: Function component is not a function expression  react/function-component-definition
+[16:05:21.815] 143:22  Error: Function component is not a function expression  react/function-component-definition
+[16:05:21.815] 
+[16:05:21.815] ./components/Image/index.tsx
+[16:05:21.815] 8:1  Error: Parsing error: The keyword 'interface' is reserved
+[16:05:21.815] 
+[16:05:21.815] ./components/Layout/data.ts
+[16:05:21.815] 12:30  Error: Parsing error: Unexpected token :
+[16:05:21.815] 
+[16:05:21.815] ./components/Layout/index.tsx
+[16:05:21.815] 23:13  Error: Parsing error: Unexpected token :
+[16:05:21.815] 
+[16:05:21.815] ./components/Mansory/index.tsx
+[16:05:21.815] 10:20  Error: Parsing error: Unexpected token :
+[16:05:21.825] 
+[16:05:21.826] ./components/Mansory/mansory-item.tsx
+[16:05:21.826] 13:1  Error: Parsing error: The keyword 'interface' is reserved
+[16:05:21.830] 
+[16:05:21.830] ./components/Navbar/index.tsx
+[16:05:21.831] 7:24  Error: Unable to resolve path to module '../Layout/style'.  import/no-unresolved
+[16:05:21.831] 7:24  Error: Missing file extension for "../Layout/style"  import/extensions
+[16:05:21.831] 8:18  Error: Unable to resolve path to module '../ActiveLink'.  import/no-unresolved
+[16:05:21.831] 8:18  Error: Missing file extension for "../ActiveLink"  import/extensions
+[16:05:21.831] 9:24  Error: Unable to resolve path to module '../Utils/context'.  import/no-unresolved
+[16:05:21.831] 9:24  Error: Missing file extension for "../Utils/context"  import/extensions
+[16:05:21.832] 12:34  Error: Unable to resolve path to module '../Icons'.  import/no-unresolved
+[16:05:21.832] 12:34  Error: Missing file extension for "../Icons"  import/extensions
+[16:05:21.832] 14:16  Error: Function component is not a function expression  react/function-component-definition
+[16:05:21.832] 20:5  Error: Fragments should contain more than one child - otherwise, there’s no need for a Fragment at all.  react/jsx-no-useless-fragment
+[16:05:21.839] 
+[16:05:21.839] ./components/SidebarModal/index.tsx
+[16:05:21.840] 13:1  Error: Parsing error: The keyword 'interface' is reserved
+[16:05:21.840] 
+[16:05:21.840] ./components/Tabs/Tab.tsx
+[16:05:21.840] 8:1  Error: Parsing error: The keyword 'interface' is reserved
+[16:05:21.841] 
+[16:05:21.841] ./components/Tabs/index.tsx
+[16:05:21.841] 15:11  Error: Parsing error: Unexpected token :
+[16:05:21.841] 
+[16:05:21.841] ./components/Utils/analytics.ts
+[16:05:21.842] 4:3  Warning: Unexpected console statement.  no-console
+[16:05:21.842] 22:1  Error: Delete `⏎`  prettier/prettier
+[16:05:21.842] 23:48  Error: 'fatal' is assigned a value but never used.  no-unused-vars
+[16:05:21.842] 28:5  Error: Delete `··⏎····`  prettier/prettier
+[16:05:21.842] 34:27  Error: Replace `"pageview"` with `'pageview'`  prettier/prettier
+[16:05:21.843] 40:7  Error: Expected property shorthand.  object-shorthand
+[16:05:21.843] 41:7  Error: Expected property shorthand.  object-shorthand
+[16:05:21.843] 45:1  Error: Delete `⏎`  prettier/prettier
+[16:05:21.843] 
+[16:05:21.843] ./components/Utils/context.ts
+[16:05:21.844] 6:37  Error: Parsing error: Unexpected token as
+[16:05:21.844] 
+[16:05:21.844] ./components/Utils/index.ts
+[16:05:21.844] 1:38  Error: Parsing error: Unexpected token :
+[16:05:21.844] 
+[16:05:21.848] ./components/Utils/localstorage.ts
+[16:05:21.848] 18:32  Error: Parsing error: Unexpected token :
+[16:05:21.848] 
+[16:05:21.848] info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+[16:05:22.080] error Command failed with exit code 1.
+[16:05:22.080] info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+[16:05:22.271] Error: Command "yarn run build" exited with 1
+[16:05:23.133] 
