@@ -58,7 +58,7 @@ const About = () => {
                   <Date /> <b>Mar- Aug 2024</b>
                 </a>
                 <p>
-                {/* Contributed to the Fullstack team in deploying and integrating version 3.0 of their site  with 5 million active monthly users.Developed a powerful SIP toolkit, analyzing 58 key parameters to provide insightful investment analytics in a visual format. Leveraged technologies like Next.js, React.js, MongoDB, AWS, Docker, and Kubernetes to build scalable and efficient solution, optimizing both backend integration and frontend visualization. */}
+                
                 • Worked with Backend team for deployment and integrating of Machine Learning model with existing website with user base of more than 5 million.<br />
                 • Made SIP toolkit using data from zebpay API for assessing investment returns and presenting it in visual format using graph.js. Toolkit includes a robust ML model which evaluates the performance of your SIP by predicting future growth and adjusting strategies accordingly.Model Loss (Mean Squared Error): 0.065 , Prediction accuracy: 87.5%.
                 </p>
